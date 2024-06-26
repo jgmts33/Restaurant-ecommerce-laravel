@@ -48,7 +48,7 @@ class HomeController extends Controller
 
 
 
-        return view("home",compact('menu','breakfast','lunch','dinner','chefs','cart_amount','about_us','banners'));
+        return view("home", compact('menu','breakfast','lunch','dinner','chefs','cart_amount','about_us','banners'));
     }
 
     public function redirects(){
